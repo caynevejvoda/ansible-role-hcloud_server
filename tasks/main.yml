@@ -1,0 +1,5 @@
+---
+# tasks file for hcloud_server
+- include_tasks: hcloud_server.yml
+  when: hcloud_servers | length > 0
+

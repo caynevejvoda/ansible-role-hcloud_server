@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Cayne Vejvoda
+  namespace: caynevejvoda
+  description: Ansible role for the hcloud_server module.
+  license: license (MIT)
+
+  min_ansible_version: '2.1'
+
+  galaxy_tags:
+  - hcloud
+  - hetzner 
+
+dependencies: 
+- hcloud collection
+- hcloud-python

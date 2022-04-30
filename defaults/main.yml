@@ -1,0 +1,41 @@
+---
+# defaults file for hcloud_server
+hcloud_servers: []
+# hcloud_servers:
+#   allow_deprecated_image: no
+#   api_token: asdikjacnsdclkjashdl;fkjwwoiuefg
+#   backups: no
+#   datacenter: fsn1
+#   delete_protection: no
+#   endpoint: https://api.hetzner.cloud/v1
+#   firewalls: 
+#   - haben 
+#   force: no
+#   force_upgrade: no
+#   id: 20
+#   image: rocky8
+#   labels: 
+#     key1: value1
+#     key2: value2
+#   location: fsn1
+#   name: myserver
+#   placement_group: 
+#   rebuild_protection: no
+#   rescue_mode: 
+#   server_type: 
+#   ssh_keys:
+#   - ssh-key1
+#   - ssh-key2
+#   server_state: present
+#   upgrade_disk: no
+#   user_data: |
+#     #cloud-config
+#     users:
+#     - name: ansible
+#       lock_passwd: false
+#       passwd: 
+#       groups: users, wheel
+#       shell: /bin/bash
+#       ssh_authorized_keys: 
+#       - ssh-key 
+#   volumes:
