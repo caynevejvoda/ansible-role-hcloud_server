@@ -10,5 +10,4 @@ galaxy_info:
   - hcloud
   - hetzner 
 
-dependencies: 
-- hetzner.hcloud
+dependencies: []
