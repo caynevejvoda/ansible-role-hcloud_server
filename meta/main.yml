@@ -11,5 +11,4 @@ galaxy_info:
   - hetzner 
 
 dependencies: 
-- hcloud collection
-- hcloud-python
+- hetzner.hcloud
